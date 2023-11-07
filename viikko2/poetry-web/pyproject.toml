@@ -1,12 +1,16 @@
 [tool.poetry]
-name = "nhl-reader"
+name = "poetry-web"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["viljavai <vilja.vaisanen@helsinki.fi>"]
 readme = "README.md"
+packages = [{include = "poetry_web"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+flask = "^3.0.0"
+pytest = "^7.4.3"
+cowsay = "^6.1"
 
 
 [build-system]
